@@ -48,7 +48,7 @@ names = {
 
         'doble': ['veinti', 'treinta', 'cuarenta', 'cincuenta', 'secenta', 'setenta', 'ochenta', 'noventa'],
 
-        'triple': ['cien', 'docientos ', 'trecientos ', 'cuatrocientos ', 'quinientos ', 'seisientos ', 'setecientos ', 'ochocientos ', 'novecientos '],
+        'triple': ['cien', 'doscientos ', 'trescientos ', 'cuatrocientos ', 'quinientos ', 'seiscientos ', 'setecientos ', 'ochocientos ', 'novecientos '],
 
         'quintuples':['millones ', 'billones ', 'trillones ', 'cuatrillones ', 'quintillones ', 'sextillones ']
     }
