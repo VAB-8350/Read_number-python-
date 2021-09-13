@@ -25,20 +25,20 @@ def read_number(number):
 
 
         c = 1
-        double= False
+        double = False
         for i in range(len(grup[x])):
-            if  len(grup[x])-1 == i:
+            if len(grup[x])-1 == i:
                 forthcoming = None
             else:
                 forthcoming = grup[x][i + 1]
 
             if c == 1:
-                if  forthcoming == '1':
+                if forthcoming == '1':
                     text.append(names['doble-10'][int(grup[x][i])])
-                    double= True
+                    double = True
 
                 elif grup[x][i] == '0':
-                    if  forthcoming == None:
+                    if forthcoming == None:
                         text.append(names['simples'][int(grup[x][i])])
 
                 else:
