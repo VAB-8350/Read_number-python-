@@ -5,7 +5,8 @@ def grouper(n, iterable):
     i = 0
 
     while i <= len(iterable):
-        grouped_list.append(iterable[i:i+3])
+        if iterable[i:i+3] != '':
+            grouped_list.append(iterable[i:i+3])
         i += 3
         
     return grouped_list
